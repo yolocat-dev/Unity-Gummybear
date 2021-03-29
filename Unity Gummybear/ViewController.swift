@@ -8,7 +8,10 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    @IBOutlet weak var type: NSSegmentedCell!
+    @IBOutlet weak var path: NSPathControl!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,5 +25,18 @@ class ViewController: NSViewController {
     }
 
 
+    @IBAction func typeChanged(_ sender: Any) {
+        switch(type.selectedSegment){
+        case 0:
+            path.isHidden = false;
+            break;
+        case 1:
+            path.isHidden = true;
+            break;
+        default:
+            path.isHidden = true;
+            break;
+        }
+    }
 }
 

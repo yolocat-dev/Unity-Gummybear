@@ -59,7 +59,7 @@
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
                     <window key="window" title="Gummybear" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <rect key="contentRect" x="620" y="369" width="580" height="370"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <connections>
@@ -91,21 +91,36 @@
                                         <segment label="Install Modules" tag="1"/>
                                     </segments>
                                 </segmentedCell>
+                                <connections>
+                                    <action selector="typeChanged:" target="XfG-lQ-9wD" id="IqP-hd-CRJ"/>
+                                </connections>
                             </segmentedControl>
-                            <pathControl verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hiu-hj-NyP">
+                            <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hiu-hj-NyP">
                                 <rect key="frame" x="175" y="286" width="230" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <pathCell key="cell" selectable="YES" editable="YES" alignment="left" placeholderString="Select Unity Hub Path..." pathStyle="popUp" id="Yjn-LU-Uek">
                                     <font key="font" metaFont="system"/>
                                 </pathCell>
                             </pathControl>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PYl-Do-GS2">
+                                <rect key="frame" x="194" y="162" width="61" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Check" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="opo-t7-MGI">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="uEV-RA-KYN" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="AMf-vL-I5w"/>
                             <constraint firstAttribute="trailing" secondItem="uEV-RA-KYN" secondAttribute="trailing" constant="20" id="QAn-At-zuC"/>
                             <constraint firstItem="uEV-RA-KYN" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="Wf8-bl-JJB"/>
-                            <constraint firstItem="Hiu-hj-NyP" firstAttribute="top" secondItem="uEV-RA-KYN" secondAttribute="bottom" constant="20" id="ae3-iN-aAY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="path" destination="Hiu-hj-NyP" id="V79-BY-zXM"/>
+                        <outlet property="type" destination="IHr-FB-Fwc" id="76S-Mr-6gr"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
