@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2B2CFC72611DC5E001467A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2CFC62611DC5E001467A8 /* AppDelegate.swift */; };
+		F2B2CFC92611DC5E001467A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2CFC82611DC5E001467A8 /* ViewController.swift */; };
+		F2B2CFCB2611DC5F001467A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B2CFCA2611DC5F001467A8 /* Assets.xcassets */; };
+		F2B2CFCE2611DC5F001467A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B2CFCC2611DC5F001467A8 /* Main.storyboard */; };
+		F2B2CFDA2611DC5F001467A8 /* Unity_GummybearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2CFD92611DC5F001467A8 /* Unity_GummybearTests.swift */; };
+		F2B2CFE52611DC5F001467A8 /* Unity_GummybearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2CFE42611DC5F001467A8 /* Unity_GummybearUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2B2CFD62611DC5F001467A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B2CFBB2611DC5E001467A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B2CFC22611DC5E001467A8;
+			remoteInfo = "Unity Gummybear";
+		};
+		F2B2CFE12611DC5F001467A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B2CFBB2611DC5E001467A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B2CFC22611DC5E001467A8;
+			remoteInfo = "Unity Gummybear";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2B2CFC32611DC5E001467A8 /* Unity Gummybear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity Gummybear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B2CFC62611DC5E001467A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2B2CFC82611DC5E001467A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2B2CFCA2611DC5F001467A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B2CFCD2611DC5F001467A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2B2CFCF2611DC5F001467A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B2CFD02611DC5F001467A8 /* Unity_Gummybear.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unity_Gummybear.entitlements; sourceTree = "<group>"; };
+		F2B2CFD52611DC5F001467A8 /* Unity GummybearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity GummybearTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B2CFD92611DC5F001467A8 /* Unity_GummybearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity_GummybearTests.swift; sourceTree = "<group>"; };
+		F2B2CFDB2611DC5F001467A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B2CFE02611DC5F001467A8 /* Unity GummybearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity GummybearUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B2CFE42611DC5F001467A8 /* Unity_GummybearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity_GummybearUITests.swift; sourceTree = "<group>"; };
+		F2B2CFE62611DC5F001467A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B2CFC02611DC5E001467A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B2CFD22611DC5F001467A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B2CFDD2611DC5F001467A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2B2CFBA2611DC5E001467A8 = {
+			isa = PBXGroup;
+			children = (
+				F2B2CFC52611DC5E001467A8 /* Unity Gummybear */,
+				F2B2CFD82611DC5F001467A8 /* Unity GummybearTests */,
+				F2B2CFE32611DC5F001467A8 /* Unity GummybearUITests */,
+				F2B2CFC42611DC5E001467A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B2CFC42611DC5E001467A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2CFC32611DC5E001467A8 /* Unity Gummybear.app */,
+				F2B2CFD52611DC5F001467A8 /* Unity GummybearTests.xctest */,
+				F2B2CFE02611DC5F001467A8 /* Unity GummybearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B2CFC52611DC5E001467A8 /* Unity Gummybear */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2CFC62611DC5E001467A8 /* AppDelegate.swift */,
+				F2B2CFC82611DC5E001467A8 /* ViewController.swift */,
+				F2B2CFCA2611DC5F001467A8 /* Assets.xcassets */,
+				F2B2CFCC2611DC5F001467A8 /* Main.storyboard */,
+				F2B2CFCF2611DC5F001467A8 /* Info.plist */,
+				F2B2CFD02611DC5F001467A8 /* Unity_Gummybear.entitlements */,
+			);
+			path = "Unity Gummybear";
+			sourceTree = "<group>";
+		};
+		F2B2CFD82611DC5F001467A8 /* Unity GummybearTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2CFD92611DC5F001467A8 /* Unity_GummybearTests.swift */,
+				F2B2CFDB2611DC5F001467A8 /* Info.plist */,
+			);
+			path = "Unity GummybearTests";
+			sourceTree = "<group>";
+		};
+		F2B2CFE32611DC5F001467A8 /* Unity GummybearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2CFE42611DC5F001467A8 /* Unity_GummybearUITests.swift */,
+				F2B2CFE62611DC5F001467A8 /* Info.plist */,
+			);
+			path = "Unity GummybearUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B2CFC22611DC5E001467A8 /* Unity Gummybear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B2CFE92611DC5F001467A8 /* Build configuration list for PBXNativeTarget "Unity Gummybear" */;
+			buildPhases = (
+				F2B2CFBF2611DC5E001467A8 /* Sources */,
+				F2B2CFC02611DC5E001467A8 /* Frameworks */,
+				F2B2CFC12611DC5E001467A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unity Gummybear";
+			productName = "Unity Gummybear";
+			productReference = F2B2CFC32611DC5E001467A8 /* Unity Gummybear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2B2CFD42611DC5F001467A8 /* Unity GummybearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B2CFEC2611DC5F001467A8 /* Build configuration list for PBXNativeTarget "Unity GummybearTests" */;
+			buildPhases = (
+				F2B2CFD12611DC5F001467A8 /* Sources */,
+				F2B2CFD22611DC5F001467A8 /* Frameworks */,
+				F2B2CFD32611DC5F001467A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B2CFD72611DC5F001467A8 /* PBXTargetDependency */,
+			);
+			name = "Unity GummybearTests";
+			productName = "Unity GummybearTests";
+			productReference = F2B2CFD52611DC5F001467A8 /* Unity GummybearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2B2CFDF2611DC5F001467A8 /* Unity GummybearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B2CFEF2611DC5F001467A8 /* Build configuration list for PBXNativeTarget "Unity GummybearUITests" */;
+			buildPhases = (
+				F2B2CFDC2611DC5F001467A8 /* Sources */,
+				F2B2CFDD2611DC5F001467A8 /* Frameworks */,
+				F2B2CFDE2611DC5F001467A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B2CFE22611DC5F001467A8 /* PBXTargetDependency */,
+			);
+			name = "Unity GummybearUITests";
+			productName = "Unity GummybearUITests";
+			productReference = F2B2CFE02611DC5F001467A8 /* Unity GummybearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B2CFBB2611DC5E001467A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F2B2CFC22611DC5E001467A8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F2B2CFD42611DC5F001467A8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F2B2CFC22611DC5E001467A8;
+					};
+					F2B2CFDF2611DC5F001467A8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F2B2CFC22611DC5E001467A8;
+					};
+				};
+			};
+			buildConfigurationList = F2B2CFBE2611DC5E001467A8 /* Build configuration list for PBXProject "Unity Gummybear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2B2CFBA2611DC5E001467A8;
+			productRefGroup = F2B2CFC42611DC5E001467A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B2CFC22611DC5E001467A8 /* Unity Gummybear */,
+				F2B2CFD42611DC5F001467A8 /* Unity GummybearTests */,
+				F2B2CFDF2611DC5F001467A8 /* Unity GummybearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B2CFC12611DC5E001467A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B2CFCB2611DC5F001467A8 /* Assets.xcassets in Resources */,
+				F2B2CFCE2611DC5F001467A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B2CFD32611DC5F001467A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B2CFDE2611DC5F001467A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B2CFBF2611DC5E001467A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B2CFC92611DC5E001467A8 /* ViewController.swift in Sources */,
+				F2B2CFC72611DC5E001467A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B2CFD12611DC5F001467A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B2CFDA2611DC5F001467A8 /* Unity_GummybearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B2CFDC2611DC5F001467A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B2CFE52611DC5F001467A8 /* Unity_GummybearUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2B2CFD72611DC5F001467A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B2CFC22611DC5E001467A8 /* Unity Gummybear */;
+			targetProxy = F2B2CFD62611DC5F001467A8 /* PBXContainerItemProxy */;
+		};
+		F2B2CFE22611DC5F001467A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B2CFC22611DC5E001467A8 /* Unity Gummybear */;
+			targetProxy = F2B2CFE12611DC5F001467A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2B2CFCC2611DC5F001467A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B2CFCD2611DC5F001467A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2B2CFE72611DC5F001467A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2B2CFE82611DC5F001467A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F2B2CFEA2611DC5F001467A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Unity Gummybear/Unity_Gummybear.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2738K99FUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Unity Gummybear/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.yolocat.Unity-Gummybear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F2B2CFEB2611DC5F001467A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Unity Gummybear/Unity_Gummybear.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2738K99FUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Unity Gummybear/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.yolocat.Unity-Gummybear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F2B2CFED2611DC5F001467A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2738K99FUA;
+				INFOPLIST_FILE = "Unity GummybearTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.yolocat.Unity-GummybearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unity Gummybear.app/Contents/MacOS/Unity Gummybear";
+			};
+			name = Debug;
+		};
+		F2B2CFEE2611DC5F001467A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2738K99FUA;
+				INFOPLIST_FILE = "Unity GummybearTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.yolocat.Unity-GummybearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unity Gummybear.app/Contents/MacOS/Unity Gummybear";
+			};
+			name = Release;
+		};
+		F2B2CFF02611DC5F001467A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2738K99FUA;
+				INFOPLIST_FILE = "Unity GummybearUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.yolocat.Unity-GummybearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Unity Gummybear";
+			};
+			name = Debug;
+		};
+		F2B2CFF12611DC5F001467A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2738K99FUA;
+				INFOPLIST_FILE = "Unity GummybearUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.yolocat.Unity-GummybearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Unity Gummybear";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B2CFBE2611DC5E001467A8 /* Build configuration list for PBXProject "Unity Gummybear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B2CFE72611DC5F001467A8 /* Debug */,
+				F2B2CFE82611DC5F001467A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B2CFE92611DC5F001467A8 /* Build configuration list for PBXNativeTarget "Unity Gummybear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B2CFEA2611DC5F001467A8 /* Debug */,
+				F2B2CFEB2611DC5F001467A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B2CFEC2611DC5F001467A8 /* Build configuration list for PBXNativeTarget "Unity GummybearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B2CFED2611DC5F001467A8 /* Debug */,
+				F2B2CFEE2611DC5F001467A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B2CFEF2611DC5F001467A8 /* Build configuration list for PBXNativeTarget "Unity GummybearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B2CFF02611DC5F001467A8 /* Debug */,
+				F2B2CFF12611DC5F001467A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B2CFBB2611DC5E001467A8 /* Project object */;
+}
