@@ -67,13 +67,13 @@ class ViewController: NSViewController {
     @IBAction func typeChanged(_ sender: NSSegmentedControl) {
         switch(type.selectedSegment){
         case 0:
-            path.isHidden = false;
+            // INSTALL VERSION
             break;
         case 1:
-            path.isHidden = true;
+            // INSTALL MODULES
             break;
         default:
-            path.isHidden = true;
+            // SELECT INSTALL TYPE
             break;
         }
     }
