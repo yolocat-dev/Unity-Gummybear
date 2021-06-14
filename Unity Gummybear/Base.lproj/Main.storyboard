@@ -103,65 +103,42 @@
                             </pathControl>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PYl-Do-GS2">
                                 <rect key="frame" x="18" y="222" width="115" height="18"/>
-                                <buttonCell key="cell" type="check" title="Documentation" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="opo-t7-MGI">
+                                <buttonCell key="cell" type="check" title="Documentation" bezelStyle="regularSquare" imagePosition="left" inset="2" id="opo-t7-MGI">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jsg-FE-VKB">
                                 <rect key="frame" x="18" y="188" width="70" height="18"/>
-                                <buttonCell key="cell" type="check" title="Android" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="het-Py-2Eu">
+                                <buttonCell key="cell" type="check" title="Android" bezelStyle="regularSquare" imagePosition="left" inset="2" id="het-Py-2Eu">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WkX-tJ-Rpn">
                                 <rect key="frame" x="18" y="52" width="67" height="18"/>
-                                <buttonCell key="cell" type="check" title="WebGL" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="4am-nF-N7e">
+                                <buttonCell key="cell" type="check" title="WebGL" bezelStyle="regularSquare" imagePosition="left" inset="2" id="4am-nF-N7e">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="377-tu-jiD">
                                 <rect key="frame" x="18" y="18" width="77" height="18"/>
-                                <buttonCell key="cell" type="check" title="Windows" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="HHg-rb-VVD">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A09-FV-dH2">
-                                <rect key="frame" x="174" y="86" width="121" height="18"/>
-                                <buttonCell key="cell" type="check" title="Language Packs" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="21R-Hy-HEr">
+                                <buttonCell key="cell" type="check" title="Windows" bezelStyle="regularSquare" imagePosition="left" inset="2" id="HHg-rb-VVD">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ypG-DQ-Cyj">
                                 <rect key="frame" x="18" y="154" width="44" height="18"/>
-                                <buttonCell key="cell" type="check" title="iOS" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Hry-eC-BXP">
+                                <buttonCell key="cell" type="check" title="iOS" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Hry-eC-BXP">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rjd-ok-XSc">
                                 <rect key="frame" x="18" y="120" width="52" height="18"/>
-                                <buttonCell key="cell" type="check" title="tvOS" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="mbC-mP-Oy0">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" id="1BW-uz-ygo">
-                                <rect key="frame" x="174" y="154" width="179" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Android SDK &amp; NDK Tools" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="VnA-T1-0R0">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" id="y4i-PK-Dzl">
-                                <rect key="frame" x="174" y="120" width="164" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Lumin OS (Magic Leap)" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="8ar-Xf-a5M">
+                                <buttonCell key="cell" type="check" title="tvOS" bezelStyle="regularSquare" imagePosition="left" inset="2" id="mbC-mP-Oy0">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -169,7 +146,7 @@
                             <button verticalHuggingPriority="750" id="gkv-iD-9cj">
                                 <rect key="frame" x="174" y="188" width="125" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Windows (Mono)" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="GWq-OO-IZK">
+                                <buttonCell key="cell" type="check" title="Windows" bezelStyle="regularSquare" imagePosition="left" inset="2" id="GWq-OO-IZK">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -177,20 +154,20 @@
                             <button verticalHuggingPriority="750" id="4Ho-Np-LTc">
                                 <rect key="frame" x="174" y="222" width="106" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Mac (IL2CPP)" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="xdT-OX-X9k">
+                                <buttonCell key="cell" type="check" title="Mac" bezelStyle="regularSquare" imagePosition="left" inset="2" id="xdT-OX-X9k">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dxs-aK-KYQ">
                                 <rect key="frame" x="18" y="86" width="55" height="18"/>
-                                <buttonCell key="cell" type="check" title="Linux" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="xDx-Sp-17Y">
+                                <buttonCell key="cell" type="check" title="Linux" bezelStyle="regularSquare" imagePosition="left" inset="2" id="xDx-Sp-17Y">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AVY-NO-z8w">
-                                <rect key="frame" x="487" y="169" width="79" height="32"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AVY-NO-z8w">
+                                <rect key="frame" x="434" y="169" width="132" height="32"/>
                                 <buttonCell key="cell" type="push" title="Check" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HPo-GR-aY3">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -213,35 +190,33 @@
                                     </menu>
                                 </popUpButtonCell>
                             </popUpButton>
-                            <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVj-cA-gTB">
-                                <rect key="frame" x="174" y="52" width="106" height="18"/>
-                                <buttonCell key="cell" type="check" title="MonoDevelop" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="o3g-h9-8U1">
+                            <button verticalHuggingPriority="750" id="y4i-PK-Dzl">
+                                <rect key="frame" x="174" y="154" width="164" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Lumin OS" bezelStyle="regularSquare" imagePosition="left" inset="2" id="8ar-Xf-a5M">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="A09-FV-dH2" firstAttribute="leading" secondItem="Dxs-aK-KYQ" secondAttribute="trailing" constant="105" id="3VO-0D-sBB"/>
                             <constraint firstItem="Dxs-aK-KYQ" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="4dT-2c-0ko"/>
                             <constraint firstItem="Dxs-aK-KYQ" firstAttribute="top" secondItem="rjd-ok-XSc" secondAttribute="bottom" constant="20" id="5Zt-Ly-vA6"/>
                             <constraint firstItem="uEV-RA-KYN" firstAttribute="top" secondItem="Hiu-hj-NyP" secondAttribute="bottom" constant="20" id="8Pg-Zt-9Ce"/>
-                            <constraint firstItem="Hiu-hj-NyP" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="A0X-Pm-VZd"/>
                             <constraint firstItem="PYl-Do-GS2" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="EQV-IA-vA1"/>
                             <constraint firstItem="ypG-DQ-Cyj" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="JY0-GT-Utq"/>
                             <constraint firstItem="WkX-tJ-Rpn" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="Mtw-xw-ahq"/>
                             <constraint firstItem="ypG-DQ-Cyj" firstAttribute="top" secondItem="Jsg-FE-VKB" secondAttribute="bottom" constant="20" id="NV2-Bj-p2W"/>
                             <constraint firstItem="g59-ch-Iea" firstAttribute="leading" secondItem="4Ho-Np-LTc" secondAttribute="trailing" constant="162" id="S7c-6m-09Q"/>
                             <constraint firstItem="WkX-tJ-Rpn" firstAttribute="top" secondItem="Dxs-aK-KYQ" secondAttribute="bottom" constant="20" id="UsY-MI-fSa"/>
-                            <constraint firstItem="IVj-cA-gTB" firstAttribute="leading" secondItem="WkX-tJ-Rpn" secondAttribute="trailing" constant="93" id="Z6n-ix-YDU"/>
-                            <constraint firstItem="y4i-PK-Dzl" firstAttribute="leading" secondItem="rjd-ok-XSc" secondAttribute="trailing" constant="108" id="aJZ-hq-L7Q"/>
+                            <constraint firstItem="y4i-PK-Dzl" firstAttribute="leading" secondItem="ypG-DQ-Cyj" secondAttribute="trailing" constant="116" id="Vmk-g7-zYm"/>
                             <constraint firstItem="377-tu-jiD" firstAttribute="top" secondItem="WkX-tJ-Rpn" secondAttribute="bottom" constant="20" id="aKV-JI-KIP"/>
+                            <constraint firstItem="AVY-NO-z8w" firstAttribute="leading" secondItem="gkv-iD-9cj" secondAttribute="trailing" constant="143" id="adV-Pi-YFU"/>
                             <constraint firstAttribute="trailing" secondItem="uEV-RA-KYN" secondAttribute="trailing" constant="20" id="aeJ-Zx-F7Z"/>
                             <constraint firstItem="rjd-ok-XSc" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="cbB-f4-ik3"/>
                             <constraint firstItem="Jsg-FE-VKB" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="dVT-Nd-YtS"/>
                             <constraint firstItem="377-tu-jiD" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="dfQ-p4-7ma"/>
                             <constraint firstItem="gkv-iD-9cj" firstAttribute="leading" secondItem="Jsg-FE-VKB" secondAttribute="trailing" constant="90" id="gu2-SU-0TH"/>
-                            <constraint firstItem="1BW-uz-ygo" firstAttribute="leading" secondItem="ypG-DQ-Cyj" secondAttribute="trailing" constant="116" id="hGQ-5I-wex"/>
                             <constraint firstItem="rjd-ok-XSc" firstAttribute="top" secondItem="ypG-DQ-Cyj" secondAttribute="bottom" constant="20" id="hVv-nA-B8H"/>
                             <constraint firstItem="PYl-Do-GS2" firstAttribute="top" secondItem="uEV-RA-KYN" secondAttribute="bottom" constant="20" id="hkJ-uf-hWW"/>
                             <constraint firstItem="g59-ch-Iea" firstAttribute="top" secondItem="uEV-RA-KYN" secondAttribute="bottom" constant="20" id="mWr-jf-19z"/>
@@ -250,7 +225,9 @@
                             <constraint firstAttribute="bottom" secondItem="377-tu-jiD" secondAttribute="bottom" constant="20" id="rYd-5Q-EQA"/>
                             <constraint firstAttribute="trailing" secondItem="g59-ch-Iea" secondAttribute="trailing" constant="20" id="uFr-Ie-dyR"/>
                             <constraint firstAttribute="trailing" secondItem="Hiu-hj-NyP" secondAttribute="trailing" constant="20" id="uxx-oy-Cd0"/>
+                            <constraint firstAttribute="trailing" secondItem="AVY-NO-z8w" secondAttribute="trailing" constant="20" id="w8b-1Z-s4z"/>
                             <constraint firstItem="Jsg-FE-VKB" firstAttribute="top" secondItem="PYl-Do-GS2" secondAttribute="bottom" constant="20" id="wBJ-E9-Kzp"/>
+                            <constraint firstItem="Hiu-hj-NyP" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="xCR-vR-YUo"/>
                             <constraint firstItem="4Ho-Np-LTc" firstAttribute="leading" secondItem="PYl-Do-GS2" secondAttribute="trailing" constant="45" id="zaA-4g-WNM"/>
                             <constraint firstItem="Hiu-hj-NyP" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="zeb-NC-eYP"/>
                         </constraints>

@@ -44,17 +44,23 @@ class ViewController: NSViewController {
     @IBAction func run(_ sender: NSButton) {
         let url = URL(fileURLWithPath: path.stringValue);
         let hubUrl = url.relativeString.replacingOccurrences(of: "%2520", with: "\\ ").split(separator: ":");
-        let out = shell("\(hubUrl[1])/Contents/MacOS/Unity\\ Hub -- --headless editors -i");
-        let versions = out.split(separator: "\n");
         
-        for i in 0..<versions.count {
-            if(i == 0 || i == 1){
-                versionPopUp.removeItem(at: 0);
-            } else if(i == (versions.count-1)){
-                versionPopUp.removeItem(at: versions.count-1)
+        if(hubUrl.count > 1){
+            let out = shell("\(hubUrl[1])/Contents/MacOS/Unity\\ Hub -- --headless editors -i");
+            
+            let versions = out.split(separator: "\n");
+            
+            for i in 0..<versions.count {
+                let versionString = String(versions[i]).split(separator: ",")
+                
+                let title = String(versionString[0]).replacingOccurrences(of: " ", with: "")
+                if(!title.contains("-")) {
+                    versionPopUp.addItem(withTitle: title)
+                }
             }
-            let versionString = String(versions[i]).split(separator: ",")
-            versionPopUp.addItem(withTitle: String(versionString[0]).replacingOccurrences(of: " ", with: ""))
+            versionPopUp.removeItem(at: 0)
+        } else {
+            showAlert("Missing Hub", "Could not find Unity Hub at selected path!", .critical)
         }
     }
     
@@ -70,6 +76,33 @@ class ViewController: NSViewController {
             path.isHidden = true;
             break;
         }
+    }
+    
+    func showNotification(_ title: String, _ info: String) -> Void {
+        let notification = NSUserNotification()
+        notification.title = title
+        notification.informativeText = info
+        notification.soundName = NSUserNotificationDefaultSoundName
+        NSUserNotificationCenter.default.deliver(notification)
+    }
+    
+    func showAlert(_ question: String, _ text: String, _ style: NSAlert.Style) -> Void {
+        let alert = NSAlert()
+        alert.messageText = question
+        alert.informativeText = text
+        alert.alertStyle = style
+        alert.addButton(withTitle: "OK")
+        alert.runModal()
+    }
+    
+    func showAlertCancel(_ question: String, _ text: String, _ style: NSAlert.Style) -> Bool {
+        let alert = NSAlert()
+        alert.messageText = question
+        alert.informativeText = text
+        alert.alertStyle = style
+        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: "Cancel")
+        return alert.runModal() == .alertFirstButtonReturn
     }
 }
 
